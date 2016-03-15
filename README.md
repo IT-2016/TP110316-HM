@@ -105,7 +105,7 @@
 	<li><code>inter => [..]</code>
 		<ul>
 			<li>[..] Optionnels</li>
-			<li><code>thead</code> Haut du tableau
+			<li><code>thead / tbody</code>
 				<ul>
 					<li><code>in</code>
 						<ul><li><code>tr => [..]</code>
