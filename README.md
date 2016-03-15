@@ -71,7 +71,7 @@
 		<ul>
 			<li>Optionnels <strong>DANS UN ARRAY</strong></li>
 			<li><code>in</code>Contenu, <code>HTML/PHP/TEXT ...</code></li>
-		<ul>
+		</ul>
 	</li>
 </ul>
 
