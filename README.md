@@ -31,8 +31,22 @@
 
 <h2>Utilités</h2>
 <p>Maintenant faut savoir bien l'utiliser, il est assez simple mais complet ( un peut trop d'ailleur )</p>
+
+<h4>Global</h4>
+<p>Toutes les partis ont des options communes</p>
+<ul>
+	<li><code>class => nomClass</code> Comme son nom l'indique pour définir une <code>class=""</code> au lien</li>
+	<li><code>id => nomId</code> Comme pour class c'est pour <code>id=""</code></li>
+	<li><code>attr => array([..])</code>
+		<ul>
+			<li><code>nomAttribut => valeurAttribut</code> ( Autant que vous souhaitez séparé par une <code>,</code> )</li>
+			<li>Exemple : <code>'style' => 'color:#C50;background-color:#292929;', 'data-toggle' => 'toggle'</code>
+		</ul>
+	</li>
+</ul>
+
 <h4>La navbar</h4>
-<p>Pour modifier les donneés il faut aller dans <code>/inc/data/header.php</code><strong style="color:#C50;">NON PAS MENU.php </strong></p>
+<p>Pour modifier les donneés il faut aller dans <code>/inc/data/header.php</code> <strong style="color:#C50;">NON PAS MENU.php </strong></p>
 <ul>
 	<li>Nom du site / logo : <code>logo</code></li>
 	<li>Liste des pages
@@ -42,11 +56,33 @@
 					<li>Optionnels <strong>DANS UN ARRAY</strong></li>
 					
 					<li><code>link => LIEN</code> Pour définir un lien (<code>href=""</code>)</li>
-					<li><code>class => nomClass</code> Comme son nom l'indique pour définir une <code>class=""</code> au lien</li>
-					<li><code>id => nomId</code> Comme pour class c'est pour <code>id=""</code></li>
-					<li>C'est tout pour les liens ( pas de <code>attr</code> comme on le verra plus bas )
+					<li>C'est tout pour les liens ( pas de <code>attr</code> )
 				</ul>			
 			</li>
+		</ul>
+	</li>
+</ul>
+
+
+<h4>Le contenu (jumbotron)</h4>
+<p>Pour modifier les donneés il faut aller dans <code>/inc/data/content.php</code></p>
+<ul>
+	<li>BALISE HML
+		<ul>
+			<li>Optionnels <strong>DANS UN ARRAY</strong></li>
+			<li><code>in</code>Contenu, <code>HTML/PHP/TEXT ...</code></li>
+		<ul>
+	</li>
+</ul>
+
+<h4>Sidebar</h4>
+<p>Pour modifier les donneés il faut aller dans <code>/inc/data/menu.php</code> ( Va savoir pourquoi je l'ai nommé comme ça )</p>
+<ul>
+	<li> Texte a mettre <code> => [..]</code>
+		<ul>
+			<li>[..] <code>''</code> Aucune optionns ( mais obligatoire, j'avais pas bien penser le code au début )</li>
+			<li>[..] <code>'active' => true</code> ( par défaut cest <code>false</code> pour rajouter la <code>class="active"</code> </li>
+			<li>[..] <code>'badge' => NBR</code></li>
 		</ul>
 	</li>
 </ul>
