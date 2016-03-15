@@ -106,21 +106,21 @@
 		<ul>
 			<li>[..] Optionnels</li>
 			<li><code>thead</code> Haut du tableau
-	<ul>
-		<li><code>in</code>
-			<ul><li><code>tr => [..]</code>
-					<ul>
-						<li><code>content => [..]</code>
-							<ul>
-								<li><code>balise</code></li>
-								<li><code>in</code></li>
-							</ul>
-						</li>
-					</ul>
-				<li>
-			</ul>
-		</li>
-	</ul>
+				<ul>
+					<li><code>in</code>
+						<ul><li><code>tr => [..]</code>
+								<ul>
+									<li><code>content => [..]</code>
+										<ul>
+											<li><code>balise</code></li>
+											<li><code>in</code></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
 			</li>
 		</ul>
 	</li>
