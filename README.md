@@ -86,3 +86,42 @@
 		</ul>
 	</li>
 </ul>
+
+
+<h4>Sidebar</h4>
+<p>Pour modifier les donneés il faut aller dans <code>/inc/data/tab.php</code> ( Maintenant ça va être chaud a expliquer et comprendre )</p>
+
+<h5>TOP</h5>
+<ul>
+	<li>Optionnels :
+		<ul>
+			<li><code>heading</code> : Titre du tableau</li>
+			<li><code>body</code> : Description du tableau</li>		
+		</uL>
+	</li>
+</ul>
+<h5>Table</h5>
+<ul><li>.['table']</li>
+	<li><code>inter => [..]</code>
+		<ul>
+			<li>[..] Optionnels</li>
+			<li><code>thead</code> Haut du tableau
+	<ul>
+		<li><code>in</code>
+			<ul><li><code>tr => [..]</code>
+					<ul>
+						<li><code>content => [..]</code>
+							<ul>
+								<li><code>balise</code></li>
+								<li><code>in</code></li>
+							</ul>
+						</li>
+					</ul>
+				<li>
+			</ul>
+		</li>
+	</ul>
+			</li>
+		</ul>
+	</li>
+</li></ul>
