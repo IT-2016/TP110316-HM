@@ -88,7 +88,7 @@
 </ul>
 
 
-<h4>Sidebar</h4>
+<h4>Tableau</h4>
 <p>Pour modifier les donneés il faut aller dans <code>/inc/data/tab.php</code> ( Maintenant ça va être chaud a expliquer et comprendre )</p>
 
 <h5>TOP</h5>
